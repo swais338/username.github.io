@@ -1,0 +1,83 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #020617, #020024);
+    color: white;
+}
+
+/* МЕНЮ */
+.menu {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: #020617;
+    padding: 15px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.menu a {
+    color: #c7d2fe;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+}
+
+.menu a:hover {
+    color: #22c55e;
+}
+
+/* КОНТЕНТ */
+.container {
+    max-width: 600px;
+    margin: 120px auto 60px;
+    background: #020617cc;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h1, h2 {
+    margin-bottom: 10px;
+}
+
+/* ФОРМА */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+input, textarea {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    background: #22c55e;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #16a34a;
+}
+
+footer {
+    text-align: center;
+    opacity: 0.6;
+    font-size: 14px;
+}
+<link rel="stylesheet" href="style.css">
